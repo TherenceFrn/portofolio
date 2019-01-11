@@ -1,0 +1,97 @@
+/* couleurs  :
+
+noir clair :#161618
+noir fonce :#030303
+bleu : #7565DF */
+
+
+*{
+
+margin: 0;
+padding: 0;
+font-family: Graphik, Arial, sans-serif;
+}
+
+img{
+
+max-width: 100%;
+}
+
+a{
+text-decoration: none;
+}
+
+a:visited{
+color: inherit;
+}
+/* HEADER */
+
+header{
+
+background-color: #161618;
+padding: 25px 0;
+}
+
+header .logo-header{
+
+width: 50px;
+position: relative;
+top: 55px;
+left: 50px;
+}
+
+
+/* NAV */
+
+
+header nav{
+
+color: white;
+font-size: 1.6rem;
+}
+
+header nav ul {
+list-style: none;
+display: flex;
+justify-content: flex-end;
+padding-right: 200px;
+}
+
+header nav ul li{
+
+padding: 20px;
+}
+
+
+/* MAIN */
+
+section{
+margin: 0 514px;
+}
+section h2{
+
+padding: 48px 0;
+color: #161618;
+font-size: 2rem;
+}
+
+.inner{
+
+background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+/* FOOTER */
+
+
+footer{
+
+background-color: #161618;
+color: white;
+}
+
+footer img{
+
+width: 20px;
+position: relative;
+left: 1820px;
+transition: 1s ease;
+}
