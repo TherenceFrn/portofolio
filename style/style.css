@@ -103,6 +103,7 @@ header nav ul li a:hover:after{
 section{
 margin: 0 514px;
 position: relative;
+cursor: pointer;
 }
 section h2{
 
@@ -125,6 +126,7 @@ color: white;
 position: absolute;
 bottom: 0;
 }
+
 
 .section-1 aside{
 
@@ -173,6 +175,11 @@ margin-bottom: 0.5rem;
 section aside p{
 
 font-size: 22px;
+}
+
+.aside-index-1{
+
+visibility: hidden;
 }
 
 
