@@ -100,24 +100,24 @@ header nav ul li a:hover:after{
 
 /* MAIN */
 
-section{
+#index section{
 margin: 0 514px;
 position: relative;
 cursor: pointer;
 }
-section h2{
+#index section h2{
 
 padding: 48px 0;
 color: #161618;
 font-size: 2rem;
 }
 
-section .media img{
+#index section .media img{
 
 width: 892px;
 }
 
-section aside{
+#index section aside{
 
   width: 875px;
 /* width: 892px; */
@@ -125,40 +125,41 @@ height: 250px;
 color: white;
 position: absolute;
 bottom: 0;
+transition: 0.4s ease;
 }
 
 
-.section-1 aside{
+#index .section-1 aside{
 
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), #e74c3c );
 }
 
-.section-2 aside{
+#index .section-2 aside{
 
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), #e67e22);
 }
 
-.section-3 aside{
+#index .section-3 aside{
 
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), #f1c40f);
 }
 
-.section-4 aside{
+#index .section-4 aside{
 
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), #2ecc71);
 }
 
-.section-5 aside{
+#index .section-5 aside{
 
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), #1abc9c);
 }
 
-.section-6 aside{
+#index .section-6 aside{
 
 background-image: linear-gradient(to bottom, rgba(255,0,0,0), #0E6655);
 }
 
-section .section-content{
+#index section .section-content{
 
 position: absolute ;
 bottom: 0;
@@ -166,21 +167,51 @@ margin-bottom: 1.5rem;
 margin-left: 3.5rem;
 }
 
-section aside h3{
+#index section aside h3{
 
 font-size: 30px;
 margin-bottom: 0.5rem;
 }
 
-section aside p{
+#index section aside p{
 
 font-size: 22px;
 }
 
-.aside-index-1{
+#index .aside-index-1{
 
-visibility: hidden;
+opacity: 0;
 }
+
+#index .aside-index-2{
+
+opacity: 0;
+}
+
+
+#index .aside-index-3{
+
+opacity: 0;
+}
+
+
+#index .aside-index-4{
+
+opacity: 0;
+}
+
+
+#index .aside-index-5{
+
+opacity: 0;
+}
+
+
+#index .aside-index-6{
+
+opacity: 0;
+}
+
 
 
 /* FOOTER */
