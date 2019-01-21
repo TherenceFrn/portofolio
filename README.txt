@@ -12,4 +12,10 @@ Site portofolio :
 -> Faire la video d'acceuil
 
 
--> Faire le tweet pré-fait
+-> Faire le tweet pré-fait // FAIT //
+
+
+-> Faire le mail ( footer )
+
+
+-> 

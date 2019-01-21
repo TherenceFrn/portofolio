@@ -282,3 +282,27 @@ left: 1820px;
 transition: 5s ease;
 bottom: 75px;
 }
+
+footer strong{
+
+
+}
+footer strong:hover,
+footer strong:active,
+footer strong:focus
+{
+color: #5DBCD2;
+}
+
+
+footer em{
+
+font-weight: bold;
+font-style: normal;
+}
+footer em:hover,
+footer em:active,
+footer em:focus
+{
+color: #D54B3E;
+}
