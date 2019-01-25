@@ -78,3 +78,20 @@ $(".section-6").ready(function(){
     $(".aside-index-6").css("opacity", "0");
   });
 });
+
+$(".section-1").ready(function(){
+    $('.section-1').click(function(){
+      window.location = 'profil.html';
+    });
+});
+
+$(".acceuil-header").ready(function(){
+    $('.acceuil-header').click(function(){
+      window.location = 'index.html';
+    });
+});
+$(".contact-header").ready(function(){
+    $('.contact-header').click(function(){
+      window.location = 'contact.html';
+    });
+});
