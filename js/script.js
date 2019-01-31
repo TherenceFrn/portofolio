@@ -95,3 +95,71 @@ $(".contact-header").ready(function(){
       window.location = 'contact.html';
     });
 });
+
+
+$("#portofolio .section-2 .article-1").ready(function(){
+  $("#portofolio .section-2 .article-1").mouseenter(function() {
+
+    $("#portofolio .section-2 .article-1 .p").css("opacity", "1");
+  });
+  $("#portofolio .section-2 .article-1").mouseleave(function() {
+
+    $("#portofolio .section-2 .article-1 .p").css("opacity", "0");
+  });
+});
+
+$("#portofolio .section-2 .article-2").ready(function(){
+  $("#portofolio .section-2 .article-2").mouseenter(function() {
+
+    $("#portofolio .section-2 .article-2 .p").css("opacity", "1");
+  });
+  $("#portofolio .section-2 .article-2").mouseleave(function() {
+
+    $("#portofolio .section-2 .article-2 .p").css("opacity", "0");
+  });
+});
+
+$("#portofolio .section-2 .article-3").ready(function(){
+  $("#portofolio .section-2 .article-3").mouseenter(function() {
+
+    $("#portofolio .section-2 .article-3 .p").css("opacity", "1");
+  });
+  $("#portofolio .section-2 .article-3").mouseleave(function() {
+
+    $("#portofolio .section-2 .article-3 .p").css("opacity", "0");
+  });
+});
+
+$("#portofolio .section-2 .article-4").ready(function(){
+  $("#portofolio .section-2 .article-4").mouseenter(function() {
+
+    $("#portofolio .section-2 .article-4 .p").css("opacity", "1");
+  });
+  $("#portofolio .section-2 .article-4").mouseleave(function() {
+
+    $("#portofolio .section-2 .article-4 .p").css("opacity", "0");
+  });
+});
+
+$("#portofolio .section-2 .article-5").ready(function(){
+  $("#portofolio .section-2 .article-5").mouseenter(function() {
+
+    $("#portofolio .section-2 .article-5 .p").css("opacity", "1");
+  });
+  $("#portofolio .section-2 .article-5").mouseleave(function() {
+
+    $("#portofolio .section-2 .article-5 .p").css("opacity", "0");
+  });
+});
+
+
+$("#portofolio .section-2 .article-6").ready(function(){
+  $("#portofolio .section-2 .article-6").mouseenter(function() {
+
+    $("#portofolio .section-2 .article-6 .p").css("opacity", "1");
+  });
+  $("#portofolio .section-2 .article-6").mouseleave(function() {
+
+    $("#portofolio .section-2 .article-6 .p").css("opacity", "0");
+  });
+});

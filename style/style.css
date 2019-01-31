@@ -184,6 +184,63 @@ header nav ul li a:hover:after {
   height: 656px;
 }
 
+
+/* PORTOFOLIO */
+
+#portofolio h2{
+
+margin-left: 150px;
+margin-top: 50px;
+}
+
+#portofolio article{
+
+width: 33%;
+position: relative;
+}
+
+#portofolio article .p{
+
+width: 100px;
+position: absolute;
+bottom: 20%;
+left: 50%;
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: 0.8s ease;
+transition-delay: 0.2s;
+cursor: pointer;
+}
+
+#portofolio .section-2{
+
+display: flex;
+align-items: center;
+}
+
+.grosse-previ{
+
+width: 100%;
+position: fixed;
+z-index: 3;
+background-color: rgba(189, 195, 199, 1)
+top: 0;
+left: 0;
+}
+
+
+.grosse-previ img{
+
+width: 80%;
+position: fixed;
+z-index: 3;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+
 /* FOOTER */
 footer {
   background-color: #161618;
