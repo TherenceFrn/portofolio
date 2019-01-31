@@ -98,6 +98,7 @@ $(".contact-header").ready(function(){
 
 
 $("#portofolio .section-2 .article-1").ready(function(){
+
   $("#portofolio .section-2 .article-1").mouseenter(function() {
 
     $("#portofolio .section-2 .article-1 .p").css("opacity", "1");
@@ -109,16 +110,22 @@ $("#portofolio .section-2 .article-1").ready(function(){
 
   $("#portofolio .section-2 .article-1").click(function() {
 
-    $( "body" ).append( '<div id="bg" class="bg"><div class="grosse-previ"><img src="https://i.imgur.com/qjONxb3.png"></div></div>');
+    $( "body" ).append( '<div class="bg" id="bg"><a class="close" id="close">X</a><div class="grosse-previ"><img src="https://i.imgur.com/qjONxb3.png"></div></div>');
   });
 
-  $("#bg").click(function() {
-
-    $("body").remove("#bg");
-$( "body" ).append( '<img src="https://i.imgur.com/qjONxb3.png">');
-  });
 
 });
+
+
+
+    var box = $("#bg");
+    var btn = $("#bg");
+
+      btn.on('click', function(){
+
+      box.css('visibility', 'hidden');
+    });
+
 
 
 

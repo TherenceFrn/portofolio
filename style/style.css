@@ -239,7 +239,19 @@ top: 50%;
 transform: translate(-50%, -50%);
 }
 
+.grosse-previ-hidden{
 
+visibility: hidden;
+}
+
+.close{
+
+font-size: 25px;
+background-color: white;
+border-radius: 50%;
+padding: 0 5px;
+
+}
 
 /* FOOTER */
 footer {
