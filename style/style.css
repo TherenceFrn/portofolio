@@ -218,7 +218,7 @@ display: flex;
 align-items: center;
 }
 
-.bg{
+.bgport{
 z-index: 10;
 background-color: rgba(189, 195, 199, 0.5);
 width: 100%;
@@ -228,9 +228,10 @@ top: 0;
 left: 0;
 z-index: 3;
 cursor: pointer;
+visibility: visible;
 }
 
-.grosse-previ{
+.grosseprevi{
 width: 80%;
 position: fixed;
 position: fixed;
@@ -239,10 +240,6 @@ top: 50%;
 transform: translate(-50%, -50%);
 }
 
-.grosse-previ-hidden{
-
-visibility: hidden;
-}
 
 .close{
 
@@ -250,7 +247,7 @@ font-size: 25px;
 background-color: white;
 border-radius: 50%;
 padding: 0 5px;
-
+border-top-left-radius: 0%;
 }
 
 /* FOOTER */
