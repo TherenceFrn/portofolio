@@ -218,22 +218,22 @@ display: flex;
 align-items: center;
 }
 
-.grosse-previ{
-
+.bg{
+z-index: 10;
+background-color: rgba(189, 195, 199, 0.5);
 width: 100%;
+height: 100vh;
 position: fixed;
-z-index: 3;
-background-color: rgba(189, 195, 199, 1)
 top: 0;
 left: 0;
+z-index: 3;
+cursor: pointer;
 }
 
-
-.grosse-previ img{
-
+.grosse-previ{
 width: 80%;
 position: fixed;
-z-index: 3;
+position: fixed;
 left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
@@ -317,4 +317,9 @@ footer em:hover,
 footer em:active,
 footer em:focus {
   color: #D54B3E;
+}
+
+html{
+
+scroll-behavior: smooth;
 }
