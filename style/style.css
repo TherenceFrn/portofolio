@@ -21,6 +21,30 @@ a:visited {
   color: inherit;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: grey
+  border: 1px solid grey;
+}
+
 /* HEADER */
 header {
   background-color: #161618;
@@ -218,7 +242,7 @@ display: flex;
 align-items: center;
 }
 
-.bgport{
+#bgport{
 z-index: 10;
 background-color: rgba(189, 195, 199, 0.5);
 width: 100%;
@@ -231,7 +255,7 @@ cursor: pointer;
 visibility: visible;
 }
 
-.grosseprevi{
+#grosseprevi{
 width: 80%;
 position: fixed;
 position: fixed;
@@ -241,7 +265,7 @@ transform: translate(-50%, -50%);
 }
 
 
-.close{
+#close{
 
 font-size: 25px;
 background-color: white;

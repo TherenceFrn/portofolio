@@ -110,20 +110,28 @@ $("#portofolio .section-2 .article-1").ready(function() {
 
   $("#portofolio .section-2 .article-1").click(function() {
 
-    $("body").append('<div class="bgport"><a class="close">X</a><div class="grosseprevi"><img src="https://i.imgur.com/qjONxb3.png"></div></div>');
+    $("body").append('<div id="bgport"><a id="close"> X </a><div id="grosseprevi"><img src="https://i.imgur.com/qjONxb3.png"></div></div>');
   });
 
 
 });
 
 
+// $(".close").on('click', function() {
+//
+//
+//     console.log('ca marche bouton close !');
+//
+//
+//       $(".bgport").css('visibility', 'hidden');
+//
+// });
 
-var box = $(".bgport");
-var btn = $(".close");
+var box = $("#bgport");
+var btn = $("#bgport");
 
-$(".bgport").ready(function() {
 
-  btn.on('mouseover', function() {
+  btn.on('click', function() {
 
     box.css('visibility', 'hidden');
 
@@ -131,7 +139,8 @@ $(".bgport").ready(function() {
 
   });
 
-});
+
+
 
 $("#portofolio .section-2 .article-2").ready(function() {
   $("#portofolio .section-2 .article-2").mouseenter(function() {
